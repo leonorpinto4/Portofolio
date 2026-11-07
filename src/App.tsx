@@ -7,37 +7,37 @@ const interests = [
   {
     label: "música",
     className: "interest interest--turntable",
-    image: "/images/hero-turntable.png",
+    image: "images/hero-turntable.png",
     speed: 0.9,
   },
   {
     label: "música",
     className: "interest interest--music-quote",
-    image: "/images/hero-music-quote.png",
+    image: "images/hero-music-quote.png",
     speed: -0.75,
   },
   {
     label: "flores",
     className: "interest interest--flowers",
-    image: "/images/hero-flowers.png",
+    image: "images/hero-flowers.png",
     speed: 0.6,
   },
   {
     label: "mar",
     className: "interest interest--wave",
-    image: "/images/hero-wave.png",
+    image: "images/hero-wave.png",
     speed: -0.7,
   },
   {
     label: "leituras",
     className: "interest interest--reading",
-    image: "/images/hero-reading.png",
+    image: "images/hero-reading.png",
     speed: 0.8,
   },
   {
     label: "livros",
     className: "interest interest--books",
-    image: "/images/hero-books.png",
+    image: "images/hero-books.png",
     speed: -0.6,
   },
 ]
