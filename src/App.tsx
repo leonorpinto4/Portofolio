@@ -108,7 +108,7 @@ export default function App() {
           {interests.map((interest) => (
             <figure
               className={interest.className}
-              key={interest.label}
+              key={interest.image}
               style={{ "--speed": interest.speed } as React.CSSProperties}
             >
               <img src={interest.image} alt="" />

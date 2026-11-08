@@ -45,14 +45,16 @@ export default function Contact() {
           Entre código, imagens e pessoas, procuro dar forma a projetos que se sentem
           humanos e ficam na memória.
         </p>
-        <a
-          className="contact__cta"
-          href={`https://wa.me/${contact.whatsapp.replace(/\D/g, "")}`}
-          target="_blank"
-          rel="noreferrer"
-        >
-          WhatsApp <span aria-hidden="true">↗</span>
-        </a>
+        {contact.whatsapp && (
+          <a
+            className="contact__cta"
+            href={`https://wa.me/${contact.whatsapp.replace(/\D/g, "")}`}
+            target="_blank"
+            rel="noreferrer"
+          >
+            WhatsApp <span aria-hidden="true">↗</span>
+          </a>
+        )}
       </div>
 
       <ul className="contact__links">
