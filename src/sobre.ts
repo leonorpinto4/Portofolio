@@ -18,7 +18,14 @@ export const sobre = {
 
   skills: ["TypeScript", "React", "Java", "Python", "SQL", "Git", "Figma"],
 
+  // experiência profissional e formação (a mais recente primeiro)
   path: [
+    {
+      period: "AAAA — AAAA", // TODO: datas do trabalho na ForestWISE
+      title: "Engenheira Informática · Projeto RN21",
+      place: "CoLAB ForestWISE",
+      text: "Desenvolvimento de um site de rastreabilidade da resina.",
+    },
     { period: "2024 — hoje", title: "Mestrado em Engenharia Informática", place: "UTAD" },
     { period: "2021 — 2024", title: "Licenciatura em Engenharia Informática", place: "Universidade" },
   ],

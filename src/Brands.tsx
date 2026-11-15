@@ -29,7 +29,8 @@ function Postcard({ brand, index }: { brand: Brand; index: number }) {
 
   return (
     <article
-      className={`postcard reveal ${flipped ? "is-flipped" : ""}`}
+      className="postcard reveal"
+      data-flipped={flipped}
       style={{
         "--brand": brand.color,
         "--brand-foreground": brand.foreground ?? "#fffdf8",

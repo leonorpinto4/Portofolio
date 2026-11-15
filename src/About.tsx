@@ -57,6 +57,7 @@ export default function About() {
                 <span className="path__period">{step.period}</span>
                 <strong>{step.title}</strong>
                 <span className="path__place">{step.place}</span>
+                {"text" in step && <p className="path__text">{String(step.text)}</p>}
               </li>
             ))}
           </ol>
