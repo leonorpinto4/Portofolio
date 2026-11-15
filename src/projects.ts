@@ -25,7 +25,9 @@ export const brands: Brand[] = [
       "Site para uma loja de decoração com alma: mostrar as peças e aproximar a loja de quem ainda não a conhece.",
     logo: "marcas/bila.webp",
     site: "https://biladcoracao.pt/",
-    color: "#3b2b96",
+    color: "#ddd4ef",
+    foreground: "#2a2340",
+    linkColor: "#3b2b96",
     status: "Publicado",
   },
   {
