@@ -21,7 +21,7 @@ export const sobre = {
   // experiência profissional e formação (a mais recente primeiro)
   path: [
     {
-      period: "AAAA — AAAA", // TODO: datas do trabalho na ForestWISE
+      period: "dez 2025 — jun 2026", // TODO: datas do trabalho na ForestWISE
       title: "Engenheira Informática · Projeto RN21",
       place: "CoLAB ForestWISE",
       text: "Desenvolvimento de um site de rastreabilidade da resina.",
