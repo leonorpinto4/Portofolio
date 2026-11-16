@@ -477,6 +477,15 @@ html {
   padding: 12px;
 }
 
+/* número ímpar de postais: o último fica centrado */
+@media (min-width: 900px) {
+  .brands__grid > .postcard:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+    justify-self: center;
+    width: calc(50% - clamp(16px, 2.5vw, 32px));
+  }
+}
+
 /* ---------- postal ---------- */
 .postcard {
   --tilt: -2.5deg;
@@ -591,9 +600,9 @@ html {
   border: 2px solid color-mix(in srgb, var(--brand-foreground, #fffdf8) 75%, transparent);
   border-radius: 50%;
   color: color-mix(in srgb, var(--brand-foreground, #fffdf8) 90%, transparent);
-  font-size: 10px;
+  font-size: 9px;
   font-weight: 600;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.08em;
   line-height: 1.5;
   text-align: center;
   text-transform: uppercase;
@@ -936,9 +945,9 @@ html {
   }
 
   .postcard__caption {
-    right: 24px;
-    bottom: 22px;
-    left: 24px;
+    right: 20px;
+    bottom: 18px;
+    left: 20px;
   }
 
   .postcard__greeting {
@@ -946,7 +955,13 @@ html {
   }
 
   .postcard__caption h3 {
-    font-size: 21px;
+    font-size: 18px;
+  }
+
+  .postcard__art img {
+    top: 7%;
+    max-width: 46%;
+    max-height: 46%;
   }
 
   .postcard__message {
@@ -956,10 +971,11 @@ html {
 
   .postcard__postmark {
     top: 10px;
-    right: 22px;
-    width: 62px;
-    height: 62px;
-    font-size: 8px;
+    right: 18px;
+    width: 64px;
+    height: 64px;
+    font-size: 7px;
+    letter-spacing: 0.04em;
   }
 
   .thesis {
@@ -1008,31 +1024,31 @@ html {
   }
 
   .interest--turntable {
-    top: 21%;
-    left: -5%;
-    width: 100px;
-    height: 85px;
+    top: 19%;
+    left: 4%;
+    width: 96px;
+    height: 82px;
   }
 
   .interest--music-quote {
-    top: 33%;
-    left: 1%;
+    top: 62%;
+    left: 5%;
     width: 84px;
     height: 34px;
   }
 
   .interest--flowers {
-    top: 21%;
-    right: -5%;
-    width: 72px;
-    height: 125px;
+    top: 20%;
+    right: 4%;
+    width: 64px;
+    height: 112px;
   }
 
   .interest--wave {
-    top: 54%;
-    right: -6%;
-    width: 112px;
-    height: 70px;
+    top: 61%;
+    right: 3%;
+    width: 104px;
+    height: 65px;
   }
 
   .interest--reading {

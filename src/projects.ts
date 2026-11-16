@@ -42,4 +42,16 @@ export const brands: Brand[] = [
     linkColor: "#80603a",
     status: "em curso",
   },
+  {
+    name: "VIGIA",
+    work: "Deteção precoce de incêndios · site",
+    description:
+      "Sensores térmicos de baixo custo, espalhados onde os incêndios costumam começar, que dão o alerta logo ao primeiro sinal de calor, com a localização exata. 1.º lugar num concurso de ideias da UTAD.",
+    logo: "marcas/vigia.png",
+    site: "https://vigia-wildfire.com/",
+    color: "#f4eee7",
+    foreground: "#211c16",
+    linkColor: "#c4380b",
+    status: "Publicado",
+  },
 ]
